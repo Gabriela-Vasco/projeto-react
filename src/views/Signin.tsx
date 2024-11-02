@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import { useEffect, useState } from "react";
 
 const Signin: React.FC = () => {
@@ -9,6 +10,7 @@ const Signin: React.FC = () => {
     return (
         <div>
             <h1>Sign in</h1>
+            <Button variant="contained" color="primary">Sign in</Button>
         </div>
     )
 };
